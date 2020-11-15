@@ -6,3 +6,12 @@ const myNumber = [25,22,29,35,16,42,36,55,43,48,49];
 
 const result = myNumber.filter((num) => (num%2==0));
 console.log(result);
+
+var users = [ "Ram", "Ravi","Bob","Alice","Tim","Zim","Car"];
+
+
+console.log(users.slice(1,4));
+console.log(users.slice(3));
+
+users.splice(1,3,"Hiii","Bye");
+console.log(users);
