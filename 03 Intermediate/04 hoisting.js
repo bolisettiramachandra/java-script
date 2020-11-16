@@ -13,7 +13,7 @@ var bigTipper = function(a){
     console.log(bill+15);
 }
 
-bigTipper(200);  // Here bigTipper is a variable you cannot use it before the function it ill be undefined 
+bigTipper(200);  // Here bigTipper is a variable you cannot use it before the function it will be undefined 
 
 // next example gives you more clarity on undefined
 
