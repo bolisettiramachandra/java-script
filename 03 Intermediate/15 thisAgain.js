@@ -7,7 +7,7 @@ var user = {
         console.log("This is line 7", this);
         function sayHello(){
             console.log("Hello");
-            console.log("This is line 10",this);
+            console.log("This is line 10",this);  // Here it is regular function call .. Refers to a indo object
         }
         sayHello();
     },
