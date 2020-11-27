@@ -1,6 +1,6 @@
 const red = document.querySelector(".red")
 const cyan = document.querySelector(".cyan")
-const vilot = document.querySelector(".vilot")
+const violet = document.querySelector(".violet")
 const orange = document.querySelector(".orange")
 const pink = document.querySelector(".pink")
 
@@ -16,3 +16,29 @@ const getBGColor = (selectedElement) => {
 
 console.log(getBGColor(pink));
 console.log(getBGColor(cyan));
+
+var redElementColor = getBGColor(red);
+
+red.addEventListener('mouseenter',() => {
+    center.style.background = redElementColor;
+})
+
+var cyanColor = getBGColor(cyan);
+cyan.addEventListener("mouseleave",() => {
+    center.style.background = cyanColor;
+})
+
+var violetColor = getBGColor(violet);
+violet.addEventListener("click",() => {
+    center.style.background = violetColor;
+})
+
+var pinkColor = getBGColor(pink);
+pink.addEventListener("dblclick",() => {
+    center.style.background = pinkColor;
+})
+
+
+
+
+
